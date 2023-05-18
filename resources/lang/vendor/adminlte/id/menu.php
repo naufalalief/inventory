@@ -1,0 +1,31 @@
+<?php
+
+return [
+
+    'main_navigation'               => 'NAVIGASI UTAMA',
+    'blog'                          => 'Blog',
+    'pages'                         => 'Halaman',
+    'account_settings'              => 'PENGATURAN AKUN',
+    'profile'                       => 'Profil',
+    'change_password'               => 'Ubah Kata Sandi',
+    'multilevel'                    => 'Multi Level',
+    'level_one'                     => 'Level 1',
+    'level_two'                     => 'Level 2',
+    'level_three'                   => 'Level 3',
+    'labels'                        => 'LABEL',
+    'important'                     => 'Penting',
+    'warning'                       => 'Peringatan',
+    'information'                   => 'Informasi',
+    'account_management'            => 'Manajemen akun',
+    'change_password'               => 'Ubah kata sandi',
+    'account'                       => 'AKUN',
+    'inventory_m'                   => 'Manajemen Barang',
+    'inventory_list'                => 'List Barang',
+    'inventory_add'                 => 'Tambah Barang',
+    'transaction_m'                 => 'Transaksi',
+    'transaction_list'              => 'List Transaksi',
+    'vendors_m'                     => 'Manajemen Vendor',
+    'vendors_list'                  => 'List Vendor',
+    'restock_m'                     => 'Manajemen Pembelian',
+    'restock_list'                  => 'List Pembelian',
+];
