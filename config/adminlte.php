@@ -332,7 +332,7 @@ return [
             'text' => 'transaction_list',
             'icon' => 'fas fa-fw fa-shopping-cart',
             'icon_color' => 'yellow',
-            'url' => '#',
+            'url' => 'list-transaksi',
         ],
         ['header' => 'vendors_m'],
         [
@@ -347,8 +347,7 @@ return [
             'text' => 'restock_list',
             'icon' => 'fas fa-fw fa-truck-moving',
             'icon_color' => 'green',
-            'url' => '#',
-            'can' => 'admin'
+            'url' => 'list-pembelian',
         ],
         [
             'header' => 'restock_m',

@@ -1,15 +1,12 @@
 @extends('layouts.test')
-
 @section('title')
-    Vendor
+    pembelian
 @stop
 
 @section('content-header')
-    Vendor
+    pembelian
 @endsection
 @section('content')
-
-    @include('vendors.add')
-    @include('vendors.list')
-
+    @include('pembelian.add')
+    @include('pembelian.list')
 @endsection

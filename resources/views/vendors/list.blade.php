@@ -1,10 +1,3 @@
-@section('title')
-    Vendor
-@stop
-
-@section('content-header')
-    <h1>Vendor</h1>
-@endsection
 <div class="card card-dark shadow">
     <div class="card-header">
         <h3 class="card-title">List Vendor</h3>

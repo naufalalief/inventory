@@ -5,19 +5,19 @@
 @stop
 
 @section('content-header')
-    <h1>Dashboard</h1>
+    Dashboard
 @endsection
 
 @section('content')
     <div class="row">
         <div class="col-lg-3 col-3">
-            <div class="small-box bg-gradient-success">
+            <div class="small-box bg-gradient-primary">
                 <div class="inner">
                     <h3>44</h3>
-                    <p>User Registrations</p>
+                    <p>Barang</p>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-user-plus"></i>
+                    <i class="fas fa-fw fa-cubes"></i>
                 </div>
                 <a href="#" class="small-box-footer">
                     More info <i class="fas fa-arrow-circle-right"></i>
@@ -29,13 +29,13 @@
         </div>
 
         <div class="col-lg-3 col-3">
-            <div class="small-box bg-gradient-success">
+            <div class="small-box bg-gradient-cyan">
                 <div class="inner">
                     <h3>44</h3>
-                    <p>User Registrations</p>
+                    <p>Vendor</p>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-user-plus"></i>
+                    <i class="fas fa-fw fa-shopping-cart"></i>
                 </div>
                 <a href="#" class="small-box-footer">
                     More info <i class="fas fa-arrow-circle-right"></i>
@@ -46,13 +46,13 @@
             </div>
         </div>
         <div class="col-lg-3 col-3">
-            <div class="small-box bg-gradient-success">
+            <div class="small-box bg-gradient-yellow">
                 <div class="inner">
                     <h3>44</h3>
-                    <p>User Registrations</p>
+                    <p>Transaksi</p>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-user-plus"></i>
+                    <i class="fas fa-fw fa-shopping-cart"></i>
                 </div>
                 <a href="#" class="small-box-footer">
                     More info <i class="fas fa-arrow-circle-right"></i>
@@ -63,13 +63,13 @@
             </div>
         </div>
         <div class="col-lg-3 col-3">
-            <div class="small-box bg-gradient-success">
+            <div class="small-box bg-gradient-cyan">
                 <div class="inner">
                     <h3>44</h3>
-                    <p>User Registrations</p>
+                    <p>Pembelian</p>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-user-plus"></i>
+                    <i class="fas fa-fw fa-truck-moving"></i>
                 </div>
                 <a href="#" class="small-box-footer">
                     More info <i class="fas fa-arrow-circle-right"></i>
@@ -94,17 +94,47 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="info-box">
-                                <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Messages</span>
-                                    <span class="info-box-number">1,410</span>
+                                    <span class="info-box-text">Pesanan</span>
+                                    <span class="info-box-number">20/12/2022</span>
                                 </div>
+                                <span class="info-box-icon">
+                                    <a href="">
+                                        <i class="fas fa-external-link-alt"></i></i>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="info-box">
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Messages</span>
+                                    <span class="info-box-text">Pembelian</span>
+                                    <span class="info-box-number">22/12/2022</span>
+                                </div>
+                                <span class="info-box-icon">
+                                    <a href="">
+                                        <i class="fas fa-external-link-alt"></i></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="info-box">
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Pembelian</span>
+                                    <span class="info-box-number">23/12/2022</span>
+                                </div>
+                                <span class="info-box-icon">
+                                    <a href="">
+                                        <i class="fas fa-external-link-alt"></i></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="info-box">
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Pesanan</span>
                                     <span class="info-box-number">1,410</span>
                                 </div>
                                 <span class="info-box-icon">
@@ -121,8 +151,8 @@
                     more info
                 </div>
                 <div class="overlay">
-                  <i class="fas fa-3x fa-sync-alt fa-spin"></i>
-              </div>
+                    <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -130,7 +160,7 @@
     <div class="row">
         <section class="col-lg-7 connectedSortable">
             <div class="card">
-                <div class="card-header portlet">
+                <div class="card-header portlet"  style="cursor: move;">
                     <h3 class="card-title">
                         {{-- <i class="ion ion-clipboard mr-1"></i> --}}
                         <ion-icon name="clipboard-outline" class="mr-1"></ion-icon>
@@ -259,7 +289,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header portlet">
+                <div class="card-header portlet"  style="cursor: move;">
                     <h3 class="card-title">
                         <i class="ion ion-clipboard mr-1"></i>
                         To Do List
@@ -390,7 +420,7 @@
         </section>
         <section class="col-lg-5 connectedSortable">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header"  style="cursor: move;">
                     <h3 class="card-title">
                         <i class="ion ion-clipboard mr-1"></i>
                         To Do List

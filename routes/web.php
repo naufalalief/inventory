@@ -21,6 +21,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('/list-vendor', [\App\Http\Controllers\VendorsController::class, 'index'])->name('vendors.view');
     Route::get('/list-barang', [\App\Http\Controllers\InventoryController::class, 'index'])->name('barang.view');
+    Route::get('/list-transaksi', [\App\Http\Controllers\TransaksiController::class, 'index'])->name('trx.view');
+    Route::get('/list-pembelian', [\App\Http\Controllers\PembelianController::class, 'index'])->name('pembelian.view');
+
 });
 Route::group(['middleware' =>  ['role:user']], function () {
 });

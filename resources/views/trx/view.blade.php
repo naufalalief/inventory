@@ -1,15 +1,12 @@
 @extends('layouts.test')
-
 @section('title')
-    Vendor
+    Transaksi
 @stop
 
 @section('content-header')
-    Vendor
+    Transaksi
 @endsection
 @section('content')
-
-    @include('vendors.add')
-    @include('vendors.list')
-
+    @include('trx.add')
+    @include('trx.list')
 @endsection
